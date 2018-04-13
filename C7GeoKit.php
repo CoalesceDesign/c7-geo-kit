@@ -219,56 +219,57 @@ class C7GeoKit
     );
 
     public $stateNeighbors = array(
-        'AL' => array( 'Alabama', 'Tennessee', 'Georgia', 'Mississippi'),
-        'AK' => array( 'Alaska' ),
-        'AZ' => array( 'Arizona', 'California', 'Nevada', 'Utah', 'Colorado', 'New Mexico' ),
-        'AR' => array( 'Arkansas', 'Missouri', 'Tennessee', 'Mississippi', 'Louisiana', 'Texas', 'Kansas'),
-        'CA' => array( 'California', 'Arizona', 'Nevada', 'Oregon'),
-        'CO' => array( 'Colorado', 'Wyoming', 'Nebraska', 'Kansas', 'Oklahoma', 'Texas', 'New Mexico', 'Arizona', 'Utah'),
-        'CT' => array( 'Connecticut', 'Rhode Island', 'New York', 'Massachussetts'),
-        'DC' => array( 'District of Columbia', 'Virginia', 'Maryland' ),
-        'FL' => array( 'Florida', 'Alabama', 'Georgia'),
-        'GA' => array( 'Georgia', 'Florida', 'South Carolina', 'Alabama', 'Tennessee', 'North Carolina' ),
-        'HI' => array( 'Hawaii', ),
-        'ID' => array( 'Idaho', 'Washington', 'Oregon', 'Nevada', 'Utah', 'Montana', 'Wyoming'  ),
-        'IL' => array( 'Illinois', 'Wisconsin', 'Michigan', 'Indiana', 'Kentucky', 'Missouri', 'Iowa'),
-        'IN' => array( 'Indiana', 'Michigan', 'Ohio', 'Kentucky', 'Illinois'),
-        'IA' => array( 'Iowa', 'Minnesota', 'Wisconsin', 'Illinois', 'Missouri', 'Nebraska', 'South Dakota'),
-        'KS' => array( 'Kansas', 'Nebraska', 'Missouri', 'Oklahoma', 'Colorado'),
-        'KY' => array( 'Kentucky', 'West Virginia', 'Virginia', 'Tennessee', 'Missouri', 'Illinois', 'Indiana', 'Ohio'),
-        'LA' => array( 'Louisiana', 'Arkansas', 'Mississippi', 'Texas'),
-        'ME' => array( 'Maine', 'New Hampshire'),
-        'MD' => array( 'Maryland', 'Virginia', 'West Virginia', 'District of Columbia', 'Pennsylvania', 'Delaware' ),
-        'MA' => array( 'Massachusetts', 'New Hampshire', 'Vermont', 'Massachusetts', 'Connecticut', 'Rhode Island', 'New York' ),
-        'MI' => array( 'Michigan', 'Indiana', 'Ohio', 'Minnesota', 'Wisconsin'),
-        'MN' => array( 'Minnesota', 'Iowa', 'Michigan', 'North Dakota', 'South Dakota', 'Wisconsin' ),
-        'MS' => array( 'Mississippi', 'Tennessee', 'Alabama', 'Arkansas', 'Louisiana'),
-        'MO' => array( 'Missouri', 'Tennessee', 'Alabama', 'Arkansas', 'Louisiana', 'Iowa', 'Illinois', 'Kentucky', 'Tennessee', 'Arkansas', 'Oklahoma', 'Kansas', 'Nebraska'),
-        'MT' => array( 'Montana', 'North Dakota', 'South Dakota', 'Wyoming', 'Idaho'),
-        'NE' => array( 'Nebraska', 'Colorado', 'Kansas', 'South Dakota', 'Wyoming', 'Iowa' ),
-        'NV' => array( 'Nevada', 'Oregon', 'Idaho', 'California', 'Utah', 'Arizona'),
-        'NH' => array( 'New Hampshire', 'Maine', 'Massachusetts', 'Vermont' ),
-        'NJ' => array( 'New Jersey', 'New York', 'Pennsylvania', 'Delaware'),
-        'NM' => array( 'New Mexico', 'Colorado', 'Texas', 'Oklahoma', 'Arizona' ),
-        'NY' => array( 'New York', 'New Jersey', 'Vermont', 'Massachusetts', 'Connecticut', 'Rhode Island' ),
-        'NC' => array( 'North Carolina', 'South Carolina', 'Georgia', 'Tennessee', 'Virginia'),
-        'ND' => array( 'North Dakota', 'Minnesota', 'South Dakota', 'Montana'),
-        'OH' => array( 'Ohio', 'Michigan', 'Pennsylvania', 'West Virginia', 'Indiana', 'Kentucky' ),
-        'OK' => array( 'Oklahoma', 'Arkansas', 'Missouri', 'Kansas', 'Colorado', 'New Mexico', 'Texas' ),
-        'OR' => array( 'Oregon', 'Washington', 'Idaho', 'California', 'Nevada'),
-        'PA' => array( 'Pennsylvania', 'New York', 'New Jersey', 'Delaware', 'Maryland', 'West Virginia', 'Ohio' ),
-        'RI' => array( 'Rhode Island', 'Massachusetts', 'Connecticut', 'New York' ),
-        'SC' => array( 'South Carolina', 'North Carolina', 'Georgia' ),
-        'SD' => array( 'South Dakota', 'North Dakota', 'Nebraska', 'Iowa', 'Minnesota', 'Wyoming', 'Montana' ),
-        'TN' => array( 'Tennessee', 'Kentucky', 'Virginia', 'North Carolina', 'Mississippi', 'Alabama', 'Georgia', 'Arkansas','Missouri' ),
-        'TX' => array( 'Texas', 'Louisiana', 'Arkansas', 'Oklahoma', 'New Mexico' ),
-        'UT' => array( 'Utah', 'Arizona', 'Colorado', 'Idaho', 'Nevada', 'Wyoming'),
-        'VT' => array( 'Vermont', 'New Hampshire', 'New York', 'Massachusetts', 'New Hampshire', 'New York', 'Massachusetts'),
-        'VA' => array( 'Virginia', 'Kentucky', 'Maryland', 'North Carolina', 'Tennessee', 'West Virginia' ),
-        'WA' => array( 'Washington', 'Idaho', 'Oregon' ),
-        'WV' => array( 'West Virginia', 'Virginia', 'Kentucky', 'Ohio', 'Pennsylvania', 'Maryland'),
-        'WI' => array( 'Wisconsin', 'Michigan', 'Illinois', 'Iowa', 'Minnesota'),
-        'WY' => array( 'Wyoming', 'Montana', 'South Dakota', 'Nebraska', 'Colorado', 'Utah', 'Idaho' ),
+        'AL' => array( 'AL', 'TN', 'GA', 'MS'),
+        'AK' => array( 'AK' ),
+        'AZ' => array( 'AZ', 'CA', 'NV', 'UT', 'CO', 'NM' ),
+        'AR' => array( 'AR', 'MO', 'TN', 'MS', 'LA', 'TX', 'KS'),
+        'CA' => array( 'CA', 'AZ', 'NV', 'OR'),
+        'CO' => array( 'CO', 'WY', 'NE', 'KS', 'OK', 'TX', 'NM', 'AZ', 'UT'),
+        'CT' => array( 'CT', 'RI', 'NY', 'MA'),
+        'DC' => array( 'DC', 'VA', 'MD' ),
+        'DE' => array( 'MD', 'NJ', 'PA' ),
+        'FL' => array( 'FL', 'AL', 'GA'),
+        'GA' => array( 'GA', 'FL', 'SC', 'AL', 'TN', 'NC' ),
+        'HI' => array( 'HI', ),
+        'ID' => array( 'ID', 'WA', 'OR', 'NV', 'UT', 'MT', 'WY'  ),
+        'IL' => array( 'IL', 'WI', 'MI', 'IN', 'KY', 'MO', 'IA'),
+        'IN' => array( 'IN', 'MI', 'OH', 'KY', 'IL'),
+        'IA' => array( 'IA', 'MN', 'WI', 'IL', 'MO', 'NE', 'SD'),
+        'KS' => array( 'KS', 'NE', 'MO', 'OK', 'CO'),
+        'KY' => array( 'KY', 'WV', 'VA', 'TN', 'MO', 'IL', 'IN', 'OH'),
+        'LA' => array( 'LA', 'AR', 'MS', 'TX'),
+        'ME' => array( 'ME', 'NH'),
+        'MD' => array( 'MD', 'VA', 'WV', 'DC', 'PA', 'DE' ),
+        'MA' => array( 'MA', 'NH', 'VT', 'MA', 'CT', 'RI', 'NY' ),
+        'MI' => array( 'MI', 'IN', 'OH', 'MN', 'WI'),
+        'MN' => array( 'MN', 'IA', 'MI', 'ND', 'SD', 'WI' ),
+        'MS' => array( 'MS', 'TN', 'AL', 'AR', 'LA'),
+        'MO' => array( 'MO', 'TN', 'AL', 'AR', 'LA', 'IA', 'IL', 'KY', 'TN', 'AR', 'OK', 'KS', 'NE'),
+        'MT' => array( 'MT', 'ND', 'SD', 'WY', 'ID'),
+        'NE' => array( 'NE', 'CO', 'KS', 'SD', 'WY', 'IA' ),
+        'NV' => array( 'NV', 'OR', 'ID', 'CA', 'UT', 'AZ'),
+        'NH' => array( 'NH', 'ME', 'MA', 'VT' ),
+        'NJ' => array( 'NJ', 'NY', 'PA', 'DE'),
+        'NM' => array( 'NM', 'CO', 'TX', 'OK', 'AZ' ),
+        'NY' => array( 'NY', 'NJ', 'VT', 'MA', 'CT', 'RI' ),
+        'NC' => array( 'NC', 'SC', 'GA', 'TN', 'VA'),
+        'ND' => array( 'ND', 'MN', 'SD', 'MT'),
+        'OH' => array( 'OH', 'MI', 'PA', 'WV', 'IN', 'KY' ),
+        'OK' => array( 'OK', 'AR', 'MO', 'KS', 'CO', 'NM', 'TX' ),
+        'OR' => array( 'OR', 'WA', 'ID', 'CA', 'NV'),
+        'PA' => array( 'PA', 'NY', 'NJ', 'DE', 'MD', 'WV', 'OH' ),
+        'RI' => array( 'RI', 'MA', 'CT', 'NY' ),
+        'SC' => array( 'SC', 'NC', 'GA' ),
+        'SD' => array( 'SD', 'ND', 'NE', 'IA', 'MN', 'WY', 'MT' ),
+        'TN' => array( 'TN', 'KY', 'VA', 'NC', 'MS', 'AL', 'GA', 'AR', 'MO' ),
+        'TX' => array( 'TX', 'LA', 'AR', 'OK', 'NM' ),
+        'UT' => array( 'UT', 'AZ', 'CO', 'ID', 'NV', 'WY'),
+        'VT' => array( 'VT', 'NH', 'NY', 'MA', 'NH', 'NY', 'MA'),
+        'VA' => array( 'VA', 'KY', 'MD', 'NC', 'TN', 'WV' ),
+        'WA' => array( 'WA', 'ID', 'OR' ),
+        'WV' => array( 'WV', 'VA', 'KY', 'OH', 'PA', 'MD'),
+        'WI' => array( 'WI', 'MI', 'IL', 'IA', 'MN'),
+        'WY' => array( 'WY', 'MT', 'SD', 'NE', 'CO', 'UT', 'ID' ),
     );
 
     public $stateTimezones = array(
@@ -330,10 +331,16 @@ class C7GeoKit
 
     // =====================================================================================================
     /*
+    */
+    function __construct() {
+    }
+
+    // =====================================================================================================
+    /*
     * Utility function to make sure a given $string is a valid state code.
     * Will convert state name to its 2-letter code as needed
-    * @param string $string
-    * @return2-letter state code (string) or false (bool)
+    * @param  string $string
+    * @return 2-letter state code (string) or false (bool)
     */
     private function __verifyStateCode( $string )
     {
@@ -382,6 +389,7 @@ class C7GeoKit
     // =====================================================================================================
     /*
     * Get array of U.S. state neighbors, indexed by 2-letter state code
+    * @param string $stateCode
     * @param array $options
     * @return array
     */
@@ -389,8 +397,11 @@ class C7GeoKit
     {
         $stateCode = $this->__verifyStateCode( $stateCode );
 
+
         if ( $stateCode && array_key_exists($stateCode, $this->stateNeighbors) ) {
+
             return $this->stateNeighbors[$stateCode];
+
         }
 
         return false;
@@ -401,7 +412,7 @@ class C7GeoKit
     // =====================================================================================================
     /*
     * Get array of U.S. state neighbors, indexed by 2-letter state code
-    * @param array $options
+    * @param string $stateCode
     * @return array
     */
     function getStateBird( $stateCode )
